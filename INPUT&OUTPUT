@@ -1,0 +1,34 @@
+#HELLO WORLD PROGRAM:
+print("hello world")
+
+#HELLO WORLD WITH TAB:
+print("hello\t world\t hello\t world")
+
+#HELLO WORLD WITH NEW LINE:
+print("hello world\n hello world\n")
+
+#INTEGER INPUT:
+a=int(input())
+print(a)
+
+#FLOAT INPUT:
+a=float(input())
+print("%.2f"%a)
+
+#CHARACTER INPUT:
+a=input()
+print(a)
+
+#STRING INPUT:
+a=input()
+print(a)
+
+#CHAR TO ASCII:
+c=input()
+print(ord(c))
+
+#ASCII TO CHAR:
+num=int(input("enter a ascii value"))
+print("character=",chr(num))
+
+
