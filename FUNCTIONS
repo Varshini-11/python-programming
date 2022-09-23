@@ -1,0 +1,37 @@
+#ARITHEMATIC OPERATORS:
+def add(n1,n2):
+    return n1+n2
+def sub(n1,n2):
+    return n1-n2
+def mul(n1,n2):
+    return n1*n2
+def mod(n1,n2):
+    return n1/n2
+def rem(n1,n2):
+    return n1//n2
+def floor(n1,n2):
+    return n1%n2
+n1=int(input())
+n2=int(input())
+print(add(n1,n2))
+print(sub(n1,n2))
+print(mul(n1,n2))
+print(mod(n1,n2))
+print(rem(n1,n2))
+print(floor(n1,n2))
+    
+#SQUARE ROOT
+def fun(n):
+   n=pow(n,2)
+   return n
+n=int(input())    
+print(fun(n))
+
+#CUBE ROOT
+def fun(n):
+    n=pow(n,3)
+    return n
+n=int(input())
+
+print(fun(n))
+    
